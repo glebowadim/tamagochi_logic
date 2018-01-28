@@ -5,17 +5,17 @@ Integration -> Integration Run -> Log
 ## Integration Trackor
 This Trackor contains information about the integration.
 Fields: Integration ID, Integration Name, Control Process, Directionality, Enabled, Last Run, External System, Last Modified Date, Description.
-* Integration ID – Unique identifier
-* Integration Name – User-friendly integration name.
-* Control Process – Grouping of several integrations with common logic.
-* Directionality – Data flow direction (Outward, Inward, or Bi-Directional).
-* Enabled – Allows to suspend integration
-* Last Run – Date and time of the last run.
-* External System – System that the Integration is connecting to.
-* Last Modified Date – Last modification date of the Trackor.
-* Description – Description of integration.
-* Read From STDOUT - Checkbox that indicates that stdout is added to Log Trackor.
-`<addr>`
+* Integration ID – Unique identifier. (2)
+* Integration Name – User-friendly integration name. (1)
+* Control Process – Grouping of several integrations with common logic. (2)
+* Directionality – Data flow direction (Outward, Inward, or Bi-Directional). (1)
+* Enabled – Allows to suspend integration. (2)
+* Last Run – Date and time of the last run. (1)
+* External System – System that the Integration is connecting to. (1)
+* Last Modified Date – Last modification date of the Trackor. (1)
+* Description – Description of integration. (1)
+* Read From STDOUT - Checkbox that indicates that stdout is added to Log Trackor. (2)
+
 1 – information fields.
 2 – fields that affect integration.
 
