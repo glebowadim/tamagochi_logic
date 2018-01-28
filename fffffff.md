@@ -71,7 +71,7 @@ Integration.json contains the names of the integration and the path to the execu
 For periodic runs IntegrationWrapper.py should be scheduled with cron:
 
 ### Example:
-    "#" m h dom mon dow command
+    # m h dom mon dow command
     0 3 * * * python IntegrationWrapper.py -p Passwords.json -i Integration.json
 
 ## Adding logs from outside
